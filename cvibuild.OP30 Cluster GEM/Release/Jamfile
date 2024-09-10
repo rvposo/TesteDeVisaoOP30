@@ -1,0 +1,115 @@
+HDRS = 	"i:\\Vision National\\Libs\\include"
+	"i:\\VisionNational\\Libs\\include"
+	"e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Auxiliar OP30 GEM.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Callbacks OP30 GEM.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "CIMSockets.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "CIMSockets.h" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Geral de Inicializacao.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Global Error Tracking.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Global Error Tracking.h" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Main OP30 GEM.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Main OP30 GEM.h" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Master_e_Negative_Samples.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Master_e_Negative_Samples.h" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "NIMachineVision.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Sistema OP30 Cluster GEM.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Testes OP30 Cluster GEM.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Visao Imaq.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Visao OP30 Cluster GEM.c" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+LOCATE on "Vision Scripts OP30 Cluster GEM.h" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Auxiliar OP30 GEM.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj" = 1 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Auxiliar OP30 GEM.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Callbacks OP30 GEM.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj" = 2 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Callbacks OP30 GEM.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\CIMSockets.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj" = 3 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\CIMSockets.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Geral de Inicializacao.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj" = 4 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Geral de Inicializacao.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Global Error Tracking.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj" = 5 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Global Error Tracking.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Main OP30 GEM.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj" = 6 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Main OP30 GEM.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Master_e_Negative_Samples.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj" = 7 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Master_e_Negative_Samples.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\NIMachineVision.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj" = 8 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\NIMachineVision.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Sistema OP30 Cluster GEM.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj" = 9 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Sistema OP30 Cluster GEM.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Testes OP30 Cluster GEM.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj" = 10 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Testes OP30 Cluster GEM.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Visao Imaq.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj" = 11 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao Imaq.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\Visao OP30 Cluster GEM.c" ;
+FILENUM on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj" = 12 ;
+DEFPROTS on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj.cvidefprots" ;
+OUTFILE on "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj" = "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj.out" ;
+PrjObjects += "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\Visao OP30 Cluster GEM.obj" ;
+Object "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\resources.res" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\resources.in.rc" ;
+MainFromObjects "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\OP30 Cluster GEM.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\OP30 Cluster GEM.exe" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\link_options.txt" ;
+Depends "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\OP30 Cluster GEM.exe" : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\resources.res" ;
+Depends all : "e:\\SW OP30 - Cluster GM\\OP30 Cluster GM - 0.4.4\\cvibuild.OP30 Cluster GEM\\Release\\OP30 Cluster GEM.exe" ;

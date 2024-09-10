@@ -1,0 +1,156 @@
+[IVA_CLRExtractBlue]
+Class="Function"
+Prototype="int IVA_CLRExtractBlue(struct Image_struct *image);"
+
+[IVA_SimpleEdge]
+Class="Function"
+Prototype="int IVA_SimpleEdge(struct Image_struct *image, struct ROI_struct *roi, int pType, int pThreshold, int pHysteresys, int pProcess, int pSubpixel, struct IVA_Data_Struct *ivaData, int stepIndex);"
+
+[IVA_ColorPM]
+Class="Function"
+Prototype="int IVA_ColorPM(struct Image_struct *image, char *templatePath, int mode, int subpixel, float *angleRangeMin, float *angleRangeMax, double colorScoreWeight, int colorSensitivity, int searchStrategy, int matchesRequested, float score, int searchRectTop, int searchRectLeft, int searchRectHeight, int searchRectWidth, struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_NthOrder]
+Class="Function"
+Prototype="int IVA_NthOrder(struct Image_struct *image, int filterSize);"
+
+[IVA_CLRExtractIntensity]
+Class="Function"
+Prototype="int IVA_CLRExtractIntensity(struct Image_struct *image);"
+
+[IVA_CLRExtractValue]
+Class="Function"
+Prototype="int IVA_CLRExtractValue(struct Image_struct *image);"
+
+[IVA_CLRExtractLuminance]
+Class="Function"
+Prototype="int IVA_CLRExtractLuminance(struct Image_struct *image);"
+
+[IVA_GetPoint]
+Class="Function"
+Prototype="struct PointFloat_struct IVA_GetPoint(struct IVA_Data_Struct *ivaData, int stepIndex, int pointIndex);"
+
+[IVA_CLRExtractGreen]
+Class="Function"
+Prototype="int IVA_CLRExtractGreen(struct Image_struct *image);"
+
+[IVA_CLRExtractRed]
+Class="Function"
+Prototype="int IVA_CLRExtractRed(struct Image_struct *image);"
+
+[IVA_LineProfile_Gray]
+Class="Function"
+Prototype="int IVA_LineProfile_Gray(struct Image_struct *image, struct ROI_struct *roi);"
+
+[IVA_ReadText]
+Class="Function"
+Prototype="int IVA_ReadText(struct Image_struct *image, char *fileName, struct ROI_struct *roi);"
+
+[IVA_EdgeTool]
+Class="Function"
+Prototype="int IVA_EdgeTool(struct Image_struct *image, struct ROI_struct *roi, int pProcess, unsigned int pThreshold, unsigned int pFilterWidth, unsigned int pSteepness, unsigned int pSubpixelType, unsigned int pSubpixelDivisions, struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_MatchPattern]
+Class="Function"
+Prototype="int IVA_MatchPattern(struct Image_struct *image, struct IVA_Data_Struct2 *ivaData, char *templatePath, int matchMode, int subpixel, float *angleRangeMin, float *angleRangeMax, int matchesRequested, float score, int searchRectTop, int searchRectLeft, int searchRectHeight, int searchRectWidth);"
+
+[IVA_MatchPattern_2]
+Class="Function"
+Prototype="int IVA_MatchPattern_2(struct Image_struct *image, struct IVA_Data_Struct *ivaData, char *templatePath, int algorithm, float *angleRangeMin, float *angleRangeMax, int *advOptionsItems, float *advOptionsValues, unsigned int numAdvOptions, int matchesRequested, float score, struct ROI_struct *roi, int stepIndex);"
+
+[IVA_FindCircularEdge]
+Class="Function"
+Prototype="int IVA_FindCircularEdge(struct Image_struct *image, int centerX, int centerY, int pInnerRadius, int pOuterRadius, double pStartAngle, double pEndAngle, int pThreshold, int pFilterWidth, int pSteepness, double pSubsamplingRatio, int pDirection, struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_Quantify]
+Class="Function"
+Prototype="int IVA_Quantify(struct Image_struct *image, struct ROI_struct *roi);"
+
+[IVA_CentroidROI]
+Class="Function"
+Prototype="int IVA_CentroidROI(struct Image_struct *image, struct ROI_struct *roi, struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_Histogram_GrayMask]
+Class="Function"
+Prototype="int IVA_Histogram_GrayMask(struct Image_struct *image, struct ROI_struct *roi);"
+
+[IVA_InitData2]
+Class="Function"
+Prototype="struct IVA_Data_Struct2 *IVA_InitData2();"
+
+[IVA_InitData]
+Class="Function"
+Prototype="struct IVA_Data_Struct *IVA_InitData(int numSteps, int numCoordSys);"
+
+[IVA_DisposeData2]
+Class="Function"
+Prototype="int IVA_DisposeData2(struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_DisposeData]
+Class="Function"
+Prototype="int IVA_DisposeData(struct IVA_Data_Struct *ivaData);"
+
+[IVA_PushBuffer]
+Class="Function"
+Prototype="int IVA_PushBuffer(struct IVA_Data_Struct *ivaData, struct Image_struct *image, int bufferNumber);"
+
+[IVA_GetBuffer]
+Class="Function"
+Prototype="struct Image_struct *IVA_GetBuffer(struct IVA_Data_Struct *ivaData, int bufferNumber);"
+
+[IVA_AddPoint]
+Class="Function"
+Prototype="int IVA_AddPoint(struct IVA_Data_Struct2 *ivaData, struct PointFloat_struct point);"
+
+[IVA_ParticleFilter]
+Class="Function"
+Prototype="int IVA_ParticleFilter(struct Image_struct *image, int *pParameter, float *plower, float *pUpper, int *pCalibrated, int *pExclude, int criteriaCount, int rejectMatches, int connectivity);"
+
+[IVA_AddClosedContour]
+Class="Function"
+Prototype="int IVA_AddClosedContour(struct ROI_struct *roi, int *xCoordinates, int *yCoordinates, int numPoints);"
+
+[IVA_MaskFromROI]
+Class="Function"
+Prototype="int IVA_MaskFromROI(struct Image_struct *image, struct ROI_struct *roi, int invertMask, int extractRegion);"
+
+[IVA_Particle]
+Class="Function"
+Prototype="int IVA_Particle(struct Image_struct *image, int connectivity, int *pPixelMeasurements, int numPixelMeasurements, int *pCalibratedMeasurements, int numCalibratedMeasurements, struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_DisposeStepResults]
+Class="Function"
+Prototype="int IVA_DisposeStepResults(struct IVA_Data_Struct *ivaData, int stepIndex);"
+
+[IVA_SetPixelValue]
+Class="Function"
+Prototype="void IVA_SetPixelValue(union PixelValue_union *pixelValue, enum ImageType_enum imageType, float grayscaleConstant, unsigned int redConstant, unsigned int greenConstant, unsigned int blueConstant);"
+
+[IVA_ColorLocation]
+Class="Function"
+Prototype="int IVA_ColorLocation(struct Image_struct *image, char *templatePath, int colorSensitivity, int searchStrategy, int matchesRequested, float score, int searchRectTop, int searchRectLeft, int searchRectHeight, int searchRectWidth, struct IVA_Data_Struct2 *ivaData);"
+
+[IVA_MatchGeometricPattern2]
+Class="Function"
+Prototype="int IVA_MatchGeometricPattern2(struct Image_struct *image, struct IVA_Data_Struct *ivaData, char *templatePath, int extraction, int curveThreshold, int edgeFilterSize, int curveMinLength, int curveRowStepSize, int curveColumnStepSize, int curveMaxEndPointGap, int matchMode, int subpixel, float *rangeMin, float *rangeMax, int matchesRequested, float score, int contrastReversal, int searchStrategy, struct ROI_struct *roi, int stepIndex);"
+
+[OverlayGeometricPatternMatch2]
+Class="Function"
+Prototype="int OverlayGeometricPatternMatch2(struct Image_struct *image, const struct GeometricPatternMatch3_struct *match, const struct RGBValue_struct *color);"
+
+[IVA_EdgeTool2]
+Class="Function"
+Prototype="int IVA_EdgeTool2(struct Image_struct *image, struct ROI_struct *roi, int pProcessType, int pPolarity, int pKernelSize, int pWidth, float pMinThreshold, int pInterpolationType, int pColumnProcessingMode, struct IVA_Data_Struct *ivaData, int stepIndex);"
+
+[IVA_ReadBarcode]
+Class="Function"
+Prototype="int IVA_ReadBarcode(struct Image_struct *image, unsigned int minBarWidth, unsigned int minStrength, unsigned int minNumBars, int skipLocation, int *barcodeTypes, unsigned int numTypes, unsigned int numBarcodes, struct ROI_struct *roi, int validate, int gradeBarcode, unsigned int scanWidth);"
+
+[IVA_InitCaliperResults]
+Class="Function"
+Prototype="int IVA_InitCaliperResults(struct Image_struct *image, struct IVA_Data_Struct *ivaData, int stepIndex, int numResults, int numCalibratedResults, struct IVA_Result_Struct **caliperResults);"
+
+[IVA_GetDistance]
+Class="Function"
+Prototype="int IVA_GetDistance(struct Image_struct *image, struct IVA_Data_Struct *ivaData, int stepIndex1, int resultIndex1, int stepIndex2, int resultIndex2, struct IVA_Result_Struct **caliperResults);"
+

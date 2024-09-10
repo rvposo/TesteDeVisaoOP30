@@ -1,0 +1,116 @@
+[ModelosCallback]
+Class="Function"
+Prototype="int ModelosCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ESC_BAR]
+Class="Function"
+Prototype="int ESC_BAR(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LeNSerie]
+Class="Function"
+Prototype="int LeNSerie(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_Bar]
+Class="Function"
+Prototype="void Manual_Bar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[Version_Bar]
+Class="Function"
+Prototype="void Version_Bar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ZeraProducao]
+Class="Function"
+Prototype="int ZeraProducao(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RejeitaMontagem]
+Class="Function"
+Prototype="int RejeitaMontagem(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Quit_Bar]
+Class="Function"
+Prototype="void Quit_Bar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[CallBack_TEXT]
+Class="Function"
+Prototype="int CallBack_TEXT(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ColetaDados_Bar]
+Class="Function"
+Prototype="void ColetaDados_Bar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[Manual_Fim]
+Class="Function"
+Prototype="int Manual_Fim(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_ThreadSistema]
+Class="Function"
+Prototype="int Manual_ThreadSistema(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_HabitaEmergencia]
+Class="Function"
+Prototype="int Manual_HabitaEmergencia(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_ResetaEmergencia]
+Class="Function"
+Prototype="int Manual_ResetaEmergencia(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_ResetarEmergencia]
+Class="Function"
+Prototype="int Manual_ResetarEmergencia(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_Sol_Descarte_Liner]
+Class="Function"
+Prototype="int Manual_Sol_Descarte_Liner(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_Liga_Ionizador]
+Class="Function"
+Prototype="int Manual_Liga_Ionizador(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_Iluminacao_Vision_Superior]
+Class="Function"
+Prototype="int Manual_Iluminacao_Vision_Superior(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_TravaClamp]
+Class="Function"
+Prototype="int Manual_TravaClamp(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RejRemoto]
+Class="Function"
+Prototype="int RejRemoto(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ContRemoto]
+Class="Function"
+Prototype="int ContRemoto(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BimanualRemoto]
+Class="Function"
+Prototype="int BimanualRemoto(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CriarNegatSample]
+Class="Function"
+Prototype="int CriarNegatSample(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RedefinirPeriodicidade]
+Class="Function"
+Prototype="int RedefinirPeriodicidade(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CopiarTabelasRede]
+Class="Function"
+Prototype="int CopiarTabelasRede(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Reparam_ROIs]
+Class="Function"
+Prototype="int Reparam_ROIs(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_sinalizador_verde]
+Class="Function"
+Prototype="int Manual_sinalizador_verde(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_sinalizador_vermelho]
+Class="Function"
+Prototype="int Manual_sinalizador_vermelho(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Manual_buzzer]
+Class="Function"
+Prototype="int Manual_buzzer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,72 @@
+[ThreadSistema]
+Class="Function"
+Prototype="int ThreadSistema(void *parametro);"
+
+[EsperaSairMontagem]
+Class="Function"
+Prototype="int EsperaSairMontagem(int botao_saida, char *image_file, double tempo_imagens, int descartar_liner);"
+
+[VerificaDescarteLiner]
+Class="Function"
+Prototype="int VerificaDescarteLiner();"
+
+[IniciaPortasDeSaida]
+Class="Function"
+Prototype="int IniciaPortasDeSaida(char *mens_erro);"
+
+[Le_Entradas]
+Class="Function"
+Prototype="int Le_Entradas(int endereco_cartao);"
+
+[AtualizaCartaoSaida]
+Class="Function"
+Prototype="int AtualizaCartaoSaida(int endereco_cartao);"
+
+[Status_Seguranca]
+Class="Function"
+Prototype="void Status_Seguranca();"
+
+[ResetarEmergencia]
+Class="Function"
+Prototype="int ResetarEmergencia(int ver_consistencia);"
+
+[LeBotoeira]
+Class="Function"
+Prototype="int LeBotoeira();"
+
+[VerificaNoButton]
+Class="Function"
+Prototype="int VerificaNoButton();"
+
+[Delay_thread]
+Class="Function"
+Prototype="void Delay_thread(double segundos);"
+
+[EnviaCommand_A_ToPIC]
+Class="Function"
+Prototype="int EnviaCommand_A_ToPIC(int Add);"
+
+[EnviaCommand_C_ToPIC]
+Class="Function"
+Prototype="int EnviaCommand_C_ToPIC(int Add);"
+
+[EscreveMCP23017byPIC]
+Class="Function"
+Prototype="int EscreveMCP23017byPIC(char *send_data, int *GP0, int *GP1);"
+
+[LeWORDfromMCP23017]
+Class="Function"
+Prototype="int LeWORDfromMCP23017(int Add, int *PortA, int *PortB);"
+
+[EsperaBimanual]
+Class="Function"
+Prototype="int EsperaBimanual();"
+
+[EsperaRetornoPIC]
+Class="Function"
+Prototype="int EsperaRetornoPIC(char *bRetorno);"
+
+[MoveTravaClampProduto]
+Class="Function"
+Prototype="int MoveTravaClampProduto(int acao);"
+

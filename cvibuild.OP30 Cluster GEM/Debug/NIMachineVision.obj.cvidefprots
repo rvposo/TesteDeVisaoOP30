@@ -1,0 +1,164 @@
+[imaqFindTransformPattern]
+Class="Function"
+Prototype="int imaqFindTransformPattern(struct Image_struct *image, struct Image_struct *pattern, struct CoordinateTransform2_struct *transform, struct RotatedRect_struct searchRect, enum FindTransformMode_enum mode, const struct FindTransformPatternOptions_struct *options, struct AxisReport_struct *report);"
+
+[imaqFindTransformRect]
+Class="Function"
+Prototype="int imaqFindTransformRect(struct Image_struct *image, struct RotatedRect_struct searchRect, struct CoordinateTransform2_struct *transform, enum FindTransformMode_enum mode, const struct FindTransformRectOptions_struct *options, struct AxisReport_struct *report);"
+
+[imaqFindTransformRects]
+Class="Function"
+Prototype="int imaqFindTransformRects(struct Image_struct *image, struct RotatedRect_struct primaryRect, struct RotatedRect_struct secondaryRect, struct CoordinateTransform2_struct *transform, enum FindTransformMode_enum mode, const struct FindTransformRectsOptions_struct *options, struct AxisReport_struct *report);"
+
+[imaqCountObjects]
+Class="Function"
+Prototype="struct ObjectReport_struct *imaqCountObjects(struct Image_struct *image, struct RotatedRect_struct searchRect, const struct CountObjectsOptions_struct *options, const struct CoordinateTransform2_struct *transform, int *numObjects);"
+
+[imaqFindPattern]
+Class="Function"
+Prototype="struct PatternMatch_struct *imaqFindPattern(struct Image_struct *image, struct Image_struct *pattern, struct RotatedRect_struct searchRect, const struct FindPatternOptions_struct *options, const struct CoordinateTransform2_struct *transform, int *numMatches);"
+
+[imaqFindCircularEdge]
+Class="Function"
+Prototype="struct CircularEdgeReport_struct *imaqFindCircularEdge(struct Image_struct *image, struct Annulus_struct searchArea, enum SpokeDirection_enum direction, const struct FindEdgeOptions_struct *options, const struct CoordinateTransform2_struct *transform);"
+
+[imaqFindConcentricEdge]
+Class="Function"
+Prototype="struct StraightEdgeReport_struct *imaqFindConcentricEdge(struct Image_struct *image, struct Annulus_struct searchArea, enum ConcentricRakeDirection_enum direction, const struct FindEdgeOptions_struct *options, const struct CoordinateTransform2_struct *transform);"
+
+[imaqFindEdge]
+Class="Function"
+Prototype="struct StraightEdgeReport_struct *imaqFindEdge(struct Image_struct *image, struct RotatedRect_struct searchRect, enum RakeDirection_enum direction, const struct FindEdgeOptions_struct *options, const struct CoordinateTransform2_struct *transform);"
+
+[imaqClampMax]
+Class="Function"
+Prototype="int imaqClampMax(struct Image_struct *image, struct RotatedRect_struct searchRect, enum RakeDirection_enum direction, float *distance, const struct FindEdgeOptions_struct *options, const struct CoordinateTransform2_struct *transform, struct PointFloat_struct *firstEdge, struct PointFloat_struct *lastEdge);"
+
+[imaqClampMin]
+Class="Function"
+Prototype="int imaqClampMin(struct Image_struct *image, struct RotatedRect_struct searchRect, enum RakeDirection_enum direction, float *distance, const struct FindEdgeOptions_struct *options, const struct CoordinateTransform2_struct *transform, struct PointFloat_struct *firstEdge, struct PointFloat_struct *lastEdge);"
+
+[imaqLightMeterLine]
+Class="Function"
+Prototype="struct LineProfile_struct *imaqLightMeterLine(struct Image_struct *image, struct Point_struct start, struct Point_struct end, int showMeasurement, const struct CoordinateTransform2_struct *transform);"
+
+[imaqLightMeterPoint]
+Class="Function"
+Prototype="int imaqLightMeterPoint(struct Image_struct *image, struct Point_struct point, int showMeasurement, float *intensity, const struct CoordinateTransform2_struct *transform);"
+
+[imaqLightMeterRect]
+Class="Function"
+Prototype="struct HistogramReport_struct *imaqLightMeterRect(struct Image_struct *image, struct RotatedRect_struct rect, int showMeasurement, const struct CoordinateTransform2_struct *transform);"
+
+[imaqSelectAnnulus]
+Class="Function"
+Prototype="int imaqSelectAnnulus(const struct Image_struct *image, struct Annulus_struct *annulus, const struct ConstructROIOptions_struct *options, int *okay);"
+
+[imaqSelectLine]
+Class="Function"
+Prototype="int imaqSelectLine(const struct Image_struct *image, struct Point_struct *start, struct Point_struct *end, const struct ConstructROIOptions_struct *options, int *okay);"
+
+[imaqSelectPoint]
+Class="Function"
+Prototype="int imaqSelectPoint(const struct Image_struct *image, struct Point_struct *point, const struct ConstructROIOptions_struct *options, int *okay);"
+
+[imaqSelectRect]
+Class="Function"
+Prototype="int imaqSelectRect(const struct Image_struct *image, struct RotatedRect_struct *rect, const struct ConstructROIOptions_struct *options, int *okay);"
+
+[imaqDisposeCircularEdgeReport]
+Class="Function"
+Prototype="int imaqDisposeCircularEdgeReport(struct CircularEdgeReport_struct *report);"
+
+[imaqDisposeObjectReport]
+Class="Function"
+Prototype="int imaqDisposeObjectReport(struct ObjectReport_struct *report);"
+
+[imaqDisposeStraightEdgeReport]
+Class="Function"
+Prototype="int imaqDisposeStraightEdgeReport(struct StraightEdgeReport_struct *report);"
+
+[imaqFindExtremeEdge]
+Class="Function"
+Prototype="int imaqFindExtremeEdge(const struct RakeReport_struct *report, int findClosestEdge, struct PointFloat_struct *edge);"
+
+[imaqFitAxisReportToRect]
+Class="Function"
+Prototype="int imaqFitAxisReportToRect(struct Rect_struct rect, enum RakeDirection_enum mainAxisDirection, enum RakeDirection_enum secondaryAxisDirection, struct PointFloat_struct origin, struct PointFloat_struct *mainAxisEnd, struct PointFloat_struct *secondaryAxisEnd);"
+
+[imaqMakePointFromPointFloat]
+Class="Function"
+Prototype="struct Point_struct imaqMakePointFromPointFloat(struct PointFloat_struct pointFloat);"
+
+[imaqMeasureMaxDistance]
+Class="Function"
+Prototype="int imaqMeasureMaxDistance(const struct RakeReport_struct *reportToProcess, struct LineFloat_struct *firstPerpendicularLine, struct LineFloat_struct *lastPerpendicularLine, float *distance, struct PointFloat_struct *firstEdge, struct PointFloat_struct *lastEdge);"
+
+[imaqMeasureMinDistance]
+Class="Function"
+Prototype="int imaqMeasureMinDistance(const struct RakeReport_struct *firstReport, const struct RakeReport_struct *secondReport, struct LineFloat_struct *firstPerpendicularLine, struct LineFloat_struct *lastPerpendicularLine, float *distance, struct PointFloat_struct *firstEdge, struct PointFloat_struct *lastEdge);"
+
+[imaqOverlayArrow]
+Class="Function"
+Prototype="int imaqOverlayArrow(struct Image_struct *image, struct Point_struct pointAtArrow, struct Point_struct pointOnLine, const struct RGBValue_struct *color, void *reserved);"
+
+[imaqOverlayClampResults]
+Class="Function"
+Prototype="int imaqOverlayClampResults(struct Image_struct *image, const struct ROI_struct *searchArea, const struct RakeReport_struct *firstReport, const struct RakeReport_struct *secondReport, const struct LineFloat_struct *firstClampLine, const struct LineFloat_struct *lastClampLine, struct PointFloat_struct firstEdge, struct PointFloat_struct lastEdge, int forMax, const struct FindEdgeOptions_struct *options);"
+
+[imaqOverlayCountObjectsResults]
+Class="Function"
+Prototype="int imaqOverlayCountObjectsResults(struct Image_struct *image, const struct ROI_struct *roi, const struct ObjectReport_struct *reports, int reportCount, const struct CountObjectsOptions_struct *options);"
+
+[imaqOverlayFindCircularEdgeResults]
+Class="Function"
+Prototype="int imaqOverlayFindCircularEdgeResults(struct Image_struct *image, const struct ROI_struct *roi, const struct SpokeReport_struct *spokeReport, const struct CircularEdgeReport_struct *edgeReport, const struct FindEdgeOptions_struct *options);"
+
+[imaqOverlayFindConcentricEdgeResults]
+Class="Function"
+Prototype="int imaqOverlayFindConcentricEdgeResults(struct Image_struct *image, const struct ROI_struct *roi, const struct ConcentricRakeReport_struct *rakeReport, const struct StraightEdgeReport_struct *edgeReport, enum ConcentricRakeDirection_enum direction, const struct FindEdgeOptions_struct *options);"
+
+[imaqOverlayFindEdgeResults]
+Class="Function"
+Prototype="int imaqOverlayFindEdgeResults(struct Image_struct *image, const struct ROI_struct *roi, const struct RakeReport_struct *rakeReport, const struct StraightEdgeReport_struct *edgeReport, const struct FindEdgeOptions_struct *options);"
+
+[imaqOverlayFindPatternResults]
+Class="Function"
+Prototype="int imaqOverlayFindPatternResults(struct Image_struct *image, const struct ROI_struct *roi, const struct PatternMatch_struct *matches, int numMatches, const struct FindPatternOptions_struct *options);"
+
+[imaqOverlayFindTransformPattern]
+Class="Function"
+Prototype="int imaqOverlayFindTransformPattern(struct Image_struct *image, struct RotatedRect_struct searchRect, const struct PatternMatch_struct *match, const struct FindTransformPatternOptions_struct *options);"
+
+[imaqOverlayFindTransformRects]
+Class="Function"
+Prototype="int imaqOverlayFindTransformRects(struct Image_struct *image, const struct ROI_struct *mainROI, const struct RakeReport_struct *mainRakeReport, const struct RakeReport_struct *secondaryRakeReport, struct PointFloat_struct origin, struct PointFloat_struct mainAxisEnd, struct PointFloat_struct secondaryAxisEnd, const struct FindTransformRectOptions_struct *optionsRect, const struct FindTransformRectsOptions_struct *optionsRects);"
+
+[imaqOverlayLineWithArrow]
+Class="Function"
+Prototype="int imaqOverlayLineWithArrow(struct Image_struct *image, struct Point_struct start, struct Point_struct end, const struct RGBValue_struct *color, int startArrow, int endArrow, void *reserved);"
+
+[imaqOverlayArcWithArrow]
+Class="Function"
+Prototype="int imaqOverlayArcWithArrow(struct Image_struct *image, struct ArcInfo_struct *arc, const struct RGBValue_struct *color, enum ConcentricRakeDirection_enum direction, void *reserved);"
+
+[imaqOverlayPatternMatch]
+Class="Function"
+Prototype="int imaqOverlayPatternMatch(struct Image_struct *image, const struct PatternMatch_struct *match, const struct RGBValue_struct *color, void *reserved);"
+
+[imaqOverlayPatternMatch_2]
+Class="Function"
+Prototype="int imaqOverlayPatternMatch_2(struct Image_struct *image, const struct PatternMatchReport_struct *match, const struct RGBValue_struct *color, void *reserved);"
+
+[imaqPrepareForExit]
+Class="Function"
+Prototype="void imaqPrepareForExit(int error, const char *functionName, ...);"
+
+[imaqSetAxisOrienation]
+Class="Function"
+Prototype="int imaqSetAxisOrienation(enum RakeDirection_enum mainAxisDirection, enum RakeDirection_enum secondaryAxisDirection, enum AxisOrientation_enum *orientation);"
+
+[imaqSplitRotatedRectangle]
+Class="Function"
+Prototype="int imaqSplitRotatedRectangle(struct RotatedRect_struct rectToSplit, enum RakeDirection_enum direction, struct RotatedRect_struct *firstRect, struct RotatedRect_struct *secondRect);"
+

@@ -1,0 +1,8 @@
+[ConfigGlobal_ErrorTrack]
+Class="Function"
+Prototype="int ConfigGlobal_ErrorTrack(ERR_TRACK_MODE track_mode);"
+
+[GlobalErrDetect]
+Class="Function"
+Prototype="int GlobalErrDetect();"
+

@@ -1,0 +1,120 @@
+[InicializaCameras]
+Class="Function"
+Prototype="int InicializaCameras();"
+
+[PararCameras]
+Class="Function"
+Prototype="void PararCameras();"
+
+[ReparametrizaROI]
+Class="Function"
+Prototype="int ReparametrizaROI(struct Image_struct *image, struct COORDENADAS *roi_selecionado, char *roi_nome, char *arq_vision, struct ROI_struct *roi_param, int utiliz_roi);"
+
+[ReparametrizaLine]
+Class="Function"
+Prototype="int ReparametrizaLine(struct Image_struct *image, COORDENADAS_LINE *roi_selecionado, char *roi_nome, struct CFG_VISION cfg_vision, char *arq_vision, struct ROI_struct *roi_param, int utiliz_roi);"
+
+[VisionIluminacao]
+Class="Function"
+Prototype="void VisionIluminacao(int iluminar_extern);"
+
+[CapturaImagemVision]
+Class="Function"
+Prototype="int CapturaImagemVision(int sessao_id, int iluminar_extern, float valor_shutter, float valor_gain);"
+
+[CapturaImagem_Referencia]
+Class="Function"
+Prototype="double CapturaImagem_Referencia(int sessao_id, int iluminacao, float valor_shutter, float valor_gain, float contraste, float gamma);"
+
+[Vision_Template_Forma_e_Cor]
+Class="Function"
+Prototype="double Vision_Template_Forma_e_Cor(struct CFG_VISION cfg_flex, int *erro_locator, int referenciar, char *arquivo_templt, int tolerancia, struct COORDENADAS coordenadas, int ilumicacao, int ver_cor_apenas, int treinar_template_rej);"
+
+[VisionGeometricTemplat_PB]
+Class="Function"
+Prototype="int VisionGeometricTemplat_PB(struct Image_struct *image, char *arquivo_templt, int tolerancia, struct COORDENADAS coordenadas, int treinar_template_rej, int usar_locator);"
+
+[VisionPatt_Template_PB]
+Class="Function"
+Prototype="int VisionPatt_Template_PB(char *arquivo_templt, int tolerancia, struct COORDENADAS coordenadas, int treinar_template_rej, int referenciar, double shutter, double gain);"
+
+[ImagemFlexBuffer]
+Class="Function"
+Prototype="int ImagemFlexBuffer(int usar_locator);"
+
+[Vision_2_Edge]
+Class="Function"
+Prototype="int Vision_2_Edge(struct COORDENADAS coordenadas, int referenciar, float shutter, float gain);"
+
+[Vision_Line_Edge]
+Class="Function"
+Prototype="int Vision_Line_Edge(struct COORDENADAS coordenadas, int referenciar, float shutter, float gain);"
+
+[Vision_Quant_PinsDisp]
+Class="Function"
+Prototype="int Vision_Quant_PinsDisp(struct COORDENADAS coordenadas, int referenciar, float shutter, float gain);"
+
+[VisionQuantify]
+Class="Function"
+Prototype="int VisionQuantify(struct COORDENADAS coordenadas, int usar_locator, int referenciar, float shutter, float gain, char *nome_roi);"
+
+[VisionBarcodeReader]
+Class="Function"
+Prototype="int VisionBarcodeReader(struct COORDENADAS coordenadas, int referenciar, float shutter, float gain, float contrast, float gamma);"
+
+[Vision_Measure_Distance_Edges]
+Class="Function"
+Prototype="float Vision_Measure_Distance_Edges(struct Image_struct *image, COORDENADAS_LINE coordenadas, int usar_locator, int referenciar, char *nome_roi);"
+
+[VisionTemplatesOFF]
+Class="Function"
+Prototype="int VisionTemplatesOFF(struct Image_struct *image, struct COORDENADAS coordenadas, int imagem_PB);"
+
+[Cria_Locator]
+Class="Function"
+Prototype="int Cria_Locator(struct Image_struct *image, struct COORDENADAS roi_localizador, char *arq_imagem, int reparametrizando, int algoritimo, int berco);"
+
+[Vision_Locator_Main]
+Class="Function"
+Prototype="double Vision_Locator_Main(int *erro_locator, int referenciar);"
+
+[Vision_Locator_Pins_Lcd]
+Class="Function"
+Prototype="double Vision_Locator_Pins_Lcd(int *erro_locator, int referenciar);"
+
+[MostraVision]
+Class="Function"
+Prototype="int MostraVision(struct Image_struct *image, int som);"
+
+[MostraVision2]
+Class="Function"
+Prototype="int MostraVision2(struct Image_struct *image, struct COORDENADAS coordenada, double contraste, double gamma);"
+
+[MostrarVision]
+Class="Function"
+Prototype="int MostrarVision(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[FatorZoom]
+Class="Function"
+Prototype="int FatorZoom(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TreinarVision]
+Class="Function"
+Prototype="int TreinarVision(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[MonitorarVision]
+Class="Function"
+Prototype="int MonitorarVision(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LiberarCameras]
+Class="Function"
+Prototype="int LiberarCameras(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GravarImagem]
+Class="Function"
+Prototype="int GravarImagem(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SeqVisionManual]
+Class="Function"
+Prototype="int SeqVisionManual(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

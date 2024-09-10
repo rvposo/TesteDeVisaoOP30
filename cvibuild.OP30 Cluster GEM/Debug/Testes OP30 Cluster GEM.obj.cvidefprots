@@ -1,0 +1,60 @@
+[ExecutaTestes]
+Class="Function"
+Prototype="double ExecutaTestes(int pos_teste, char *tab_spare, char *pn_cliente, int modelo);"
+
+[FinalizaTestes]
+Class="Function"
+Prototype="int FinalizaTestes(double res);"
+
+[StatusTeste]
+Class="Function"
+Prototype="int StatusTeste(double res);"
+
+[InicializaTestes]
+Class="Function"
+Prototype="int InicializaTestes();"
+
+[Montar_Difusor]
+Class="Function"
+Prototype="double Montar_Difusor(char *mens_rejeito);"
+
+[Montar_LCD_Retirar_Liner]
+Class="Function"
+Prototype="double Montar_LCD_Retirar_Liner(char *mens_rejeito);"
+
+[Montar_LCD]
+Class="Function"
+Prototype="double Montar_LCD(char *mens_rejeito);"
+
+[Montar_Shield]
+Class="Function"
+Prototype="double Montar_Shield(char *mens_rejeito);"
+
+[VisionVerificaMontagem]
+Class="Function"
+Prototype="double VisionVerificaMontagem(int montagem, char *mens_rejeito, int referenciar);"
+
+[VisionVerificaTravaAplique]
+Class="Function"
+Prototype="double VisionVerificaTravaAplique(char *mens_rejeito);"
+
+[VisionVerificaBarcodeAplique]
+Class="Function"
+Prototype="double VisionVerificaBarcodeAplique(char *mens_rejeito, int referenciar);"
+
+[VisionVerificaBarcodeLCD]
+Class="Function"
+Prototype="double VisionVerificaBarcodeLCD(char *mens_rejeito, int referenciar);"
+
+[VisionVerificaMontagemPinsLCD]
+Class="Function"
+Prototype="double VisionVerificaMontagemPinsLCD(char *mens_rejeito);"
+
+[Medidas_Travas_Conector_J2901]
+Class="Function"
+Prototype="double Medidas_Travas_Conector_J2901(char *mens_rejeito);"
+
+[Localizador_painel]
+Class="Function"
+Prototype="double Localizador_painel(char *mens_rejeito);"
+

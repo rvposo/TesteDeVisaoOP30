@@ -1,0 +1,56 @@
+-nologo
+-out:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\OP30 Cluster GEM_dbg.exe
+-arch:x86
+-timestamp
+-debug:2
+-res:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\linkersummary.txt
+-dlldeps:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\dlldependencies.txt
+-licensing:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\linkerlicensing.txt
+-browsedeps:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Auxiliar OP30 GEM.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Callbacks OP30 GEM.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\CIMSockets.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Geral de Inicializacao.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Global Error Tracking.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Main OP30 GEM.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Master_e_Negative_Samples.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\NIMachineVision.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Sistema OP30 Cluster GEM.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Testes OP30 Cluster GEM.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Visao Imaq.obj
+-in:e:\SW OP30 - Cluster GM\OP30 Cluster GM - 0.4.4\cvibuild.OP30 Cluster GEM\Debug\Visao OP30 Cluster GEM.obj
+-more:c:\program files (x86)\national instruments\cvi2015\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2015\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc\analysis.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\toolslib\toolbox\msvc\asynctmr.obj
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\toolslib\custctrl\msvc\ImageControl.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\NIDAQmx.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\niimaq.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\niimaqdx.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nivision.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nixnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\omp.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\pid.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

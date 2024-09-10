@@ -1,0 +1,172 @@
+[CIMSockets_New_SMF]
+Class="Function"
+Prototype="long CIMSockets_New_SMF(const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets_Open_SMF]
+Class="Function"
+Prototype="long CIMSockets_Open_SMF(const char *fileName, const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets_Active_SMF]
+Class="Function"
+Prototype="long CIMSockets_Active_SMF(const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets__SMFGetmy_sockID]
+Class="Function"
+Prototype="long CIMSockets__SMFGetmy_sockID(CAObjHandle objectHandle, ERRORINFO *errorInfo, short *my_sockID);"
+
+[CIMSockets__SMFSetmy_sockID]
+Class="Function"
+Prototype="long CIMSockets__SMFSetmy_sockID(CAObjHandle objectHandle, ERRORINFO *errorInfo, short my_sockID);"
+
+[CIMSockets__SMFGetmy_BaseTimestamp]
+Class="Function"
+Prototype="long CIMSockets__SMFGetmy_BaseTimestamp(CAObjHandle objectHandle, ERRORINFO *errorInfo, long *my_BaseTimestamp);"
+
+[CIMSockets__SMFSetmy_BaseTimestamp]
+Class="Function"
+Prototype="long CIMSockets__SMFSetmy_BaseTimestamp(CAObjHandle objectHandle, ERRORINFO *errorInfo, long my_BaseTimestamp);"
+
+[CIMSockets__SMFGetmy_BaseData]
+Class="Function"
+Prototype="long CIMSockets__SMFGetmy_BaseData(CAObjHandle objectHandle, ERRORINFO *errorInfo, char **my_BaseData);"
+
+[CIMSockets__SMFSetmy_BaseData]
+Class="Function"
+Prototype="long CIMSockets__SMFSetmy_BaseData(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *my_BaseData);"
+
+[CIMSockets__SMFGetmy_Station_ID]
+Class="Function"
+Prototype="long CIMSockets__SMFGetmy_Station_ID(CAObjHandle objectHandle, ERRORINFO *errorInfo, char **my_Station_ID);"
+
+[CIMSockets__SMFSetmy_Station_ID]
+Class="Function"
+Prototype="long CIMSockets__SMFSetmy_Station_ID(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *my_Station_ID);"
+
+[CIMSockets__SMFGetmy_Timeout]
+Class="Function"
+Prototype="long CIMSockets__SMFGetmy_Timeout(CAObjHandle objectHandle, ERRORINFO *errorInfo, short *my_Timeout);"
+
+[CIMSockets__SMFSetmy_Timeout]
+Class="Function"
+Prototype="long CIMSockets__SMFSetmy_Timeout(CAObjHandle objectHandle, ERRORINFO *errorInfo, short my_Timeout);"
+
+[CIMSockets__SMFreadini]
+Class="Function"
+Prototype="long CIMSockets__SMFreadini(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *arquivo, const char *secao, const char *linha, char **arg4);"
+
+[CIMSockets__SMFwriteini]
+Class="Function"
+Prototype="long CIMSockets__SMFwriteini(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *arquivo, const char *secao, const char *linha, const char *parametro, short *arg5);"
+
+[CIMSockets__SMFopen_sock]
+Class="Function"
+Prototype="long CIMSockets__SMFopen_sock(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *host, const char *service, short timeout, short *arg4);"
+
+[CIMSockets__SMFsync_sock]
+Class="Function"
+Prototype="long CIMSockets__SMFsync_sock(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, const char *station, short timeout, long *arg4);"
+
+[CIMSockets__SMFclose_sock]
+Class="Function"
+Prototype="long CIMSockets__SMFclose_sock(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, short *arg3);"
+
+[CIMSockets__SMFerrormsg]
+Class="Function"
+Prototype="long CIMSockets__SMFerrormsg(CAObjHandle objectHandle, ERRORINFO *errorInfo, short result, char **arg2);"
+
+[CIMSockets__SMFmoveout]
+Class="Function"
+Prototype="long CIMSockets__SMFmoveout(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *barcode, const char *status, short *arg6);"
+
+[CIMSockets__SMFmovein]
+Class="Function"
+Prototype="long CIMSockets__SMFmovein(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *barcode, char **mensagem_retorno, short *arg6);"
+
+[CIMSockets__SMFpackout]
+Class="Function"
+Prototype="long CIMSockets__SMFpackout(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *boxBarcode, struct tagSAFEARRAY **barcode, short quantidade, short *arg7);"
+
+[CIMSockets__SMFenvtest]
+Class="Function"
+Prototype="long CIMSockets__SMFenvtest(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *unitId, const char *groupId, const char *groupVersion, const char *testId, const char *testResult, double testValue, short flag, short *arg11);"
+
+[CIMSockets__SMFSMFMessage]
+Class="Function"
+Prototype="long CIMSockets__SMFSMFMessage(CAObjHandle objectHandle, ERRORINFO *errorInfo, char **arg1);"
+
+[CIMSockets__SMFBuild]
+Class="Function"
+Prototype="long CIMSockets__SMFBuild(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *barcodePai, const char *barcodeFilho, short *arg6);"
+
+[CIMSockets__SMFoperator]
+Class="Function"
+Prototype="long CIMSockets__SMFoperator(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *operator_id, const char *onoff, char **mensagem_retorno, short *arg7);"
+
+[CIMSockets__SMFenvtestgroup]
+Class="Function"
+Prototype="long CIMSockets__SMFenvtestgroup(CAObjHandle objectHandle, ERRORINFO *errorInfo, short sockID, short timeout, const char *station, const char *groupId, const char *groupVersion, short quantidade, struct tagSAFEARRAY **testId, struct tagSAFEARRAY **testDesc, struct tagSAFEARRAY **lowLimit, struct tagSAFEARRAY **highLimit, struct tagSAFEARRAY **unMed, short *arg12);"
+
+[CIMSockets_New_Comm]
+Class="Function"
+Prototype="long CIMSockets_New_Comm(const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets_Open_Comm]
+Class="Function"
+Prototype="long CIMSockets_Open_Comm(const char *fileName, const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets_Active_Comm]
+Class="Function"
+Prototype="long CIMSockets_Active_Comm(const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets__CommOpenCOM]
+Class="Function"
+Prototype="long CIMSockets__CommOpenCOM(CAObjHandle objectHandle, ERRORINFO *errorInfo, short comPort, const char *comSettings, short *arg3);"
+
+[CIMSockets__CommCloseCOM]
+Class="Function"
+Prototype="long CIMSockets__CommCloseCOM(CAObjHandle objectHandle, ERRORINFO *errorInfo, short *arg1);"
+
+[CIMSockets__CommReadCOM]
+Class="Function"
+Prototype="long CIMSockets__CommReadCOM(CAObjHandle objectHandle, ERRORINFO *errorInfo, char **buffer, short *arg2);"
+
+[CIMSockets__CommWriteCOM]
+Class="Function"
+Prototype="long CIMSockets__CommWriteCOM(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *buffer, short *arg2);"
+
+[CIMSockets_New_TRANSPONDER]
+Class="Function"
+Prototype="long CIMSockets_New_TRANSPONDER(const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets_Open_TRANSPONDER]
+Class="Function"
+Prototype="long CIMSockets_Open_TRANSPONDER(const char *fileName, const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets_Active_TRANSPONDER]
+Class="Function"
+Prototype="long CIMSockets_Active_TRANSPONDER(const char *server, int supportMultithreading, unsigned long locale, int reserved, CAObjHandle *objectHandle);"
+
+[CIMSockets__TRANSPONDERLeitura]
+Class="Function"
+Prototype="long CIMSockets__TRANSPONDERLeitura(CAObjHandle objectHandle, ERRORINFO *errorInfo, short comPort, char **buffer, short timeout, short *arg4);"
+
+[CIMSockets__TRANSPONDERInicializa]
+Class="Function"
+Prototype="long CIMSockets__TRANSPONDERInicializa(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *var_transponder, const char *modelo, char **numserie, short *arg4);"
+
+[CIMSockets__TRANSPONDERRecupera]
+Class="Function"
+Prototype="long CIMSockets__TRANSPONDERRecupera(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *var_transponder, char **numserie, short *arg3);"
+
+[CIMSockets__TRANSPONDERLimpa]
+Class="Function"
+Prototype="long CIMSockets__TRANSPONDERLimpa(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *var_transponder, short *arg2);"
+
+[CIMSockets__TRANSPONDERRegride]
+Class="Function"
+Prototype="long CIMSockets__TRANSPONDERRegride(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *modelo, short *arg2);"
+
+[CIMSockets__TRANSPONDERAssocia]
+Class="Function"
+Prototype="long CIMSockets__TRANSPONDERAssocia(CAObjHandle objectHandle, ERRORINFO *errorInfo, const char *var_transponder, const char *numserie, char **nserie, short *arg4);"
+

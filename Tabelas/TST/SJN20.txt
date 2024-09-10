@@ -1,0 +1,22 @@
+GM  Cluster, 11/08/2018  - OP30 Montagem Difusor & TFT & Shield
+001, Montagem do Difusor e LCD - Retirar o Liner                        ,1      ,1      ,PASS   ,0
+018, Localizador da imagem                                              ,1      ,1      ,Pass   ,0
+012, Verificação da Montagem  do Difusor c/ display - Ponto 1           ,0      ,180    ,Pixel  ,0
+013, Verificação da Montagem  do Difusor c/ display - Ponto 2           ,0      ,180    ,Pixel  ,0
+007, Verificação da Montagem  do Display                                ,0      ,140     ,Pixel  ,0
+014, Verificação da Montagem  do Display - Ausencia Liners Ponto 1      ,0      ,180    ,Pixel  ,0
+015, Verificação da Montagem  do Display - Ausencia Liners Ponto 2      ,0      ,180    ,Pixel  ,0  
+016, Verificação da Montagem  do Display - Ausencia Liners Ponto 3      ,170    ,255    ,Pixel  ,0
+017, Verificação da Montagem  do Display - Ausencia Liners Ponto 4      ,170    ,255    ,Pixel  ,0
+004, Montagem do Shield                                                 ,1      ,1      ,PASS   ,0
+006, Verificação da Montagem  do Shield                     		,180    ,255    ,Pixel  ,0
+END
+
+
+
+001, Montagem do Difusor                                                ,1      ,1      ,PASS   ,0
+005, Verificação da Montagem  do Difusor                                ,0      ,170     ,Pixel  ,0
+003, Montagem do LCD - Retirar o Liner                                  ,1      ,1      ,PASS   ,0
+002, Montagem do LCD                                                    ,1      ,1      ,PASS   ,0
+004, Montagem do Shield                                                 ,1      ,1      ,PASS   ,0
+006, Verificação da Montagem  do Shield                     		,180    ,255    ,Pixel  ,0

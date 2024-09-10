@@ -1,0 +1,68 @@
+[VerFreqSamples]
+Class="Function"
+Prototype="int VerFreqSamples();"
+
+[Verifica_Status_das_Samples]
+Class="Function"
+Prototype="int Verifica_Status_das_Samples();"
+
+[Deleta_Status_das_Samples]
+Class="Function"
+Prototype="int Deleta_Status_das_Samples();"
+
+[Grava_Hist_e_Status_das_Samples]
+Class="Function"
+Prototype="void Grava_Hist_e_Status_das_Samples(int Max_Test);"
+
+[RegistraNegatSample]
+Class="Function"
+Prototype="int RegistraNegatSample();"
+
+[AutorizaCriarNegatSample]
+Class="Function"
+Prototype="int AutorizaCriarNegatSample();"
+
+[Gerenciar_Samples]
+Class="Function"
+Prototype="int Gerenciar_Samples();"
+
+[AutorizaTestarNegSample]
+Class="Function"
+Prototype="int AutorizaTestarNegSample();"
+
+[VerConsistNegatSample]
+Class="Function"
+Prototype="int VerConsistNegatSample();"
+
+[RegistSeqNegSamp_Semanal]
+Class="Function"
+Prototype="int RegistSeqNegSamp_Semanal();"
+
+[DefSeqNegSample_DiariaSemanal]
+Class="Function"
+Prototype="int DefSeqNegSample_DiariaSemanal();"
+
+[Le_NegSamp_a_testar]
+Class="Function"
+Prototype="int Le_NegSamp_a_testar();"
+
+[LerDiaAtual]
+Class="Function"
+Prototype="int LerDiaAtual(int carregar, int indexar);"
+
+[LerNegSamplesRegistradas]
+Class="Function"
+Prototype="int LerNegSamplesRegistradas();"
+
+[LeDescTipo_AmosNeg]
+Class="Function"
+Prototype="int LeDescTipo_AmosNeg();"
+
+[GravaTipoAtual]
+Class="Function"
+Prototype="int GravaTipoAtual();"
+
+[LeTipoAtual]
+Class="Function"
+Prototype="int LeTipoAtual();"
+

@@ -1,0 +1,64 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[LoopPrincipal]
+Class="Function"
+Prototype="int LoopPrincipal();"
+
+[CicloAutomatico]
+Class="Function"
+Prototype="int CicloAutomatico(void *parametro);"
+
+[Reconect_CIM]
+Class="Function"
+Prototype="int Reconect_CIM();"
+
+[Habilita_scanner_DM]
+Class="Function"
+Prototype="void Habilita_scanner_DM();"
+
+[Desliga_scanner_DM]
+Class="Function"
+Prototype="void Desliga_scanner_DM();"
+
+[CarregaTabela]
+Class="Function"
+Prototype="int CarregaTabela();"
+
+[ResetBarcode]
+Class="Function"
+Prototype="void ResetBarcode(int bcr_enditem_pronto);"
+
+[SetEmDebug]
+Class="Function"
+Prototype="int SetEmDebug();"
+
+[LeBarcode]
+Class="Function"
+Prototype="int LeBarcode();"
+
+[Zera]
+Class="Function"
+Prototype="void Zera();"
+
+[SolicitaAtualizarTabela]
+Class="Function"
+Prototype="int SolicitaAtualizarTabela();"
+
+[ColetaDados]
+Class="Function"
+Prototype="void ColetaDados(int Max_Test);"
+
+[MoveOut_Build_Cim]
+Class="Function"
+Prototype="void MoveOut_Build_Cim(char *prefixo, double Res, int Rej, int Test);"
+
+[AtualizaFTT]
+Class="Function"
+Prototype="void AtualizaFTT();"
+
+[PresetaTeste]
+Class="Function"
+Prototype="int PresetaTeste();"
+

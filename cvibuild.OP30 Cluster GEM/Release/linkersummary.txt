@@ -1,0 +1,23 @@
+Auxiliar OP30 GEM.obj
+Callbacks OP30 GEM.obj
+CIMSockets.obj
+Geral de Inicializacao.obj
+Global Error Tracking.obj
+Main OP30 GEM.obj
+Master_e_Negative_Samples.obj
+NIMachineVision.obj
+Sistema OP30 Cluster GEM.obj
+Testes OP30 Cluster GEM.obj
+Visao Imaq.obj
+Visao OP30 Cluster GEM.obj
+cvistart.lib
+cvi.lib
+cviauto.lib
+niimaqdx.lib
+nivision.lib
+winmm.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

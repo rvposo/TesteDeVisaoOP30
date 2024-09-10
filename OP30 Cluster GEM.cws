@@ -1,0 +1,340 @@
+[Workspace Header]
+Version = 1501
+Pathname = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/OP30 Cluster GEM.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2015"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2015"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "OP30 Cluster GEM.prj"
+Drag Bar Left = 260
+Window Top = 52
+Window Left = 252
+Window Bottom = 661
+Window Right = 1226
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 11
+Window Confinement Region Enabled = True
+MainColumnWidth = 243
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1501
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/CIMSockets.fp"
+File Type = "Function Panel"
+Disk Date = 3507125334
+In Projects = "1,"
+
+[File 0002]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Testes OP30 Cluster GEM.c"
+File Type = "CSource"
+Disk Date = 3735290890
+In Projects = "1,"
+Window Top = 65
+Window Left = 158
+Window Z-Order = 3
+Source Window State = "1,773,776,773,112,98,112,0,0,150,0,0,0,0,0,44,388,0,408,0,601,1268,1,0,"
+Breakpoint 0001 = "378,0,enabled,"
+
+[File 0003]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Visao OP30 Cluster GEM.c"
+File Type = "CSource"
+Disk Date = 3735291069
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Window Z-Order = 5
+Source Window State = "1,1611,1611,1611,4,18,18,0,0,80,0,0,0,0,0,28,2002,0,2016,8,397,715,1,0,"
+Breakpoint 0001 = "2017,0,enabled,"
+
+[File 0004]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Callbacks OP30 GEM.c"
+File Type = "CSource"
+Disk Date = 3735230384
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 9
+Source Window State = "1,0,0,0,0,0,0,0,0,64,0,0,0,0,0,14,0,0,0,0,206,587,1,0,"
+
+[File 0005]
+Path Line0001 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Vision Scripts OP30 Cluster GEM."
+Path Line0002 = "h"
+File Type = "Include"
+Disk Date = 3735290890
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 8
+Source Window State = "1,177,177,177,8,28,28,1,0,76,0,0,0,0,0,23,158,0,189,27,323,683,1,0,"
+
+[File 0006]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Manual OP30 GEM.uir"
+File Type = "User Interface Resource"
+Disk Date = 3735230385
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 427
+Window Width = 705
+Window Z-Order = 11
+
+[File 0007]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auxiliar OP30 GEM.c"
+File Type = "CSource"
+Disk Date = 3651775190
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Z-Order = 10
+Source Window State = "1,866,866,866,4,16,16,0,0,92,0,0,0,0,0,31,1556,0,1559,36,427,804,1,0,"
+
+[File 0008]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Geral de Inicializacao.c"
+File Type = "CSource"
+Disk Date = 3735294480
+In Projects = "1,"
+Window Top = 267
+Window Left = 218
+Window Z-Order = 6
+Source Window State = "1,198,198,198,4,21,21,0,0,92,0,164,0,0,0,34,181,0,208,31,475,804,1,14,"
+
+[File 0009]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.c"
+File Type = "CSource"
+Disk Date = 3713019316
+In Projects = "1,"
+Window Top = 182
+Window Left = 41
+Window Z-Order = 2
+Source Window State = "1,55,55,55,4,17,17,0,0,92,0,0,0,0,0,31,118,0,137,18,427,804,1,0,"
+
+[File 0010]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.h"
+File Type = "Include"
+Disk Date = 3735292215
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Z-Order = 7
+Source Window State = "1,0,0,0,41,42,42,0,0,80,0,0,0,0,0,28,0,0,0,42,397,715,1,0,"
+
+[File 0011]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auto OP30 GEM.uir"
+File Type = "User Interface Resource"
+Disk Date = 3735318786
+In Projects = "1,"
+Window Top = 267
+Window Left = 138
+Window Height = 427
+Window Width = 804
+Window Z-Order = 4
+
+[File 0012]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Sistema OP30 Cluster GEM.c"
+File Type = "CSource"
+Disk Date = 3652021952
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 1
+Source Window State = "1,109,109,109,4,22,22,0,0,129,0,0,0,0,0,31,860,0,870,8,284,683,1,0,"
+
+[File 0013]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Mensagens.uir"
+File Type = "User Interface Resource"
+Disk Date = 3606201542
+In Projects = "1,"
+
+[File 0014]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/CIMSockets.c"
+File Type = "CSource"
+Disk Date = 3507125334
+In Projects = "1,"
+Window Top = 188
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,306,0,332,0,475,804,0,0,"
+
+[File 0015]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Global Error Tracking.c"
+File Type = "CSource"
+Disk Date = 3602750540
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0016]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Master_e_Negative_Samples.c"
+File Type = "CSource"
+Disk Date = 3614088762
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,1248,1248,1248,8,16,16,0,0,0,0,0,0,0,0,0,187,1,202,11,427,804,1,0,"
+
+[File 0017]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/NIMachineVision.c"
+File Type = "CSource"
+Disk Date = 3567650226
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0018]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Visao Imaq.c"
+File Type = "CSource"
+Disk Date = 3617108390
+In Projects = "1,"
+Window Top = 312
+Window Left = 154
+Source Window State = "1,1446,1446,1446,4,19,19,0,0,0,0,0,0,0,0,0,971,0,988,4,475,804,0,0,"
+
+[File 0019]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/CIMSockets.h"
+File Type = "Include"
+Disk Date = 3507125334
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,683,1,0,"
+
+[File 0020]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Global Error Tracking.h"
+File Type = "Include"
+Disk Date = 3602749800
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0021]
+Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Master_e_Negative_Samples.h"
+File Type = "Include"
+Disk Date = 3599038204
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Tab Order]
+Tab 0001 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Manual OP30 GEM.uir"
+Tab 0002 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auxiliar OP30 GEM.c"
+Tab 0003 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Callbacks OP30 GEM.c"
+Tab 0004 Line0001 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Vision Scripts OP30 Cluster GEM."
+Tab 0004 Line0002 = "h"
+Tab 0005 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Testes OP30 Cluster GEM.c"
+Tab 0006 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Visao OP30 Cluster GEM.c"
+Tab 0007 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.h"
+Tab 0008 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.c"
+Tab 0009 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Geral de Inicializacao.c"
+Tab 0010 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auto OP30 GEM.uir"
+Tab 0011 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Sistema OP30 Cluster GEM.c"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

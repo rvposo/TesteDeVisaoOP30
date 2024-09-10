@@ -1,0 +1,34 @@
+PREFIX_PWB ,BARCODE APLIQUE  ,BARCODE LCD ,TAB_TESTES   ,TAB_vision       ,SPARE    ,PN VISTEON          ,DESC MODEL    ,TIPO_AMOSTRA   ,PREFIX_EI 
+SJN01	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_DISP.TXT  ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN01
+SJN02	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN02
+SJN04	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_DISP.TXT  ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN04
+SJN05	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN05
+SJN06	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_DISP.TXT  ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN06
+SJN07	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN07
+SJN08	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN08
+SJN14	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN01
+SJN12	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN02
+SJN13	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN08
+SJN15	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN02
+SJN18	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN18
+SJN20	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN20
+SJN21	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN21
+SJN23	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN23
+SJN24	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN24
+SJN26	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN26
+SJN27	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN27
+SJN37	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN24
+SJN28	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN28
+SJN29	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN29
+SJN30	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN30
+SJN31	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN31
+SJN33	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN33
+SJN35	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN35
+SJN36	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN36
+SJN37	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN37
+SJN38	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN38
+SJN39	   ,JE8AB            ,M           ,SJN01.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-DMA	 ,GEM           ,TESTE          ,SJN39
+SJN40	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN40
+SJN41	   ,JE8AB            ,N           ,SJN02.TXT    ,VISION_LCD.TXT   ,-----    ,VP9JE8F-FMA	 ,GEM           ,TESTE          ,SJN41
+NSN01	   ,JE8AB            ,M           ,NSN01.TXT    ,VISION_DISP.TXT  ,-----    ,VP9JE8F-DMA	 ,GEM           ,NEGATIVA       ,NSN01
+FIM

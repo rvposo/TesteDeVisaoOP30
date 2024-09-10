@@ -1,0 +1,84 @@
+[LeConfiguracoes]
+Class="Function"
+Prototype="int LeConfiguracoes();"
+
+[val]
+Class="Function"
+Prototype="long val(char *str, int radix);"
+
+[CINT]
+Class="Function"
+Prototype="int CINT(double V);"
+
+[MOD]
+Class="Function"
+Prototype="int MOD(double a, double b);"
+
+[itostr]
+Class="Function"
+Prototype="char *itostr(int number, unsigned int casas);"
+
+[instr]
+Class="Function"
+Prototype="int instr(unsigned int count, char *str, char ch);"
+
+[Get_Pos]
+Class="Function"
+Prototype="int Get_Pos(char *Source, int ini, char car);"
+
+[StringMid]
+Class="Function"
+Prototype="char *StringMid(char *str, unsigned int inicio, char ch, unsigned int *count);"
+
+[Mensagem]
+Class="Function"
+Prototype="void Mensagem(char *Mens1, char *Mens2, char *Mens3, char *Mens4, int cor);"
+
+[CodigoData]
+Class="Function"
+Prototype="int CodigoData(int datainicio);"
+
+[Decimal_to_Hex]
+Class="Function"
+Prototype="void Decimal_to_Hex(int Decimal, char *Hex);"
+
+[IsOnlyNumeric]
+Class="Function"
+Prototype="int IsOnlyNumeric(char *str);"
+
+[Data_e_Hora]
+Class="Function"
+Prototype="void Data_e_Hora(char *Data, char *Time, char *Mlabel);"
+
+[GravaCoordenadasROI]
+Class="Function"
+Prototype="void GravaCoordenadasROI(char *roi_nome, struct COORDENADAS *roi_selecionado, int usar_angulo, char *arq_vision);"
+
+[GravaCoordenadasROICircular]
+Class="Function"
+Prototype="void GravaCoordenadasROICircular(char *roi_nome, char *roi_nome_2, struct COORD_PONTEIROS *roi_selecionado, char *arq_vision);"
+
+[GravaCoordenadasLine]
+Class="Function"
+Prototype="void GravaCoordenadasLine(char *roi_nome, COORDENADAS_LINE *roi_selecionado, char *arq_vision);"
+
+[ConfigVision]
+Class="Function"
+Prototype="int ConfigVision(struct CFG_VISION *dados_cfg_vision, char *arq_vision);"
+
+[CVI_PlaySound]
+Class="Function"
+Prototype="short CVI_PlaySound(char *fileName, short asynchronous);"
+
+[CVI_PlaySoundEx]
+Class="Function"
+Prototype="short CVI_PlaySoundEx(char *fileName, short asynchronous, short loop, short playDefault, short stopCurrentSound);"
+
+[CVI_StopCurrentSound]
+Class="Function"
+Prototype="void CVI_StopCurrentSound();"
+
+[MensFinal]
+Class="Function"
+Prototype="int MensFinal(char *Rodape, int Mdl_Rj, double Tempo_Total, double res, double Hi_Lim, double Low_Lim, char *Nome_Teste, int teste);"
+

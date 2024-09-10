@@ -1,0 +1,88 @@
+[Atualiza_Manual]
+Class="Function"
+Prototype="void Atualiza_Manual();"
+
+[InicializaMaquina]
+Class="Function"
+Prototype="int InicializaMaquina();"
+
+[Verifica_Barcodes]
+Class="Function"
+Prototype="int Verifica_Barcodes();"
+
+[InicializaPortasSeriais]
+Class="Function"
+Prototype="int InicializaPortasSeriais();"
+
+[SetMensAuto_ON]
+Class="Function"
+Prototype="void SetMensAuto_ON(char *mens1);"
+
+[SetMensAutoAllOFF]
+Class="Function"
+Prototype="void SetMensAutoAllOFF(char *mens1, char *mens2, char *mens3);"
+
+[RetornaMovimentos]
+Class="Function"
+Prototype="int RetornaMovimentos(int testar_consistencia, char *mens_falha);"
+
+[CircuitosSeguranca]
+Class="Function"
+Prototype="int CircuitosSeguranca(int testar_consistencia);"
+
+[HomePosition]
+Class="Function"
+Prototype="int HomePosition(char *mens_falha);"
+
+[PrintMensWarning]
+Class="Function"
+Prototype="void PrintMensWarning(ALARME_SOM alarme);"
+
+[Ativa_Leitor]
+Class="Function"
+Prototype="void Ativa_Leitor();"
+
+[VerificaSerialScanner]
+Class="Function"
+Prototype="int VerificaSerialScanner();"
+
+[ProntoParaTeste]
+Class="Function"
+Prototype="void ProntoParaTeste();"
+
+[Inicializar_CircuitosSeguranca]
+Class="Function"
+Prototype="int Inicializar_CircuitosSeguranca(int testar_consistencia);"
+
+[FuncRejeitado]
+Class="Function"
+Prototype="int FuncRejeitado(char *Rodape, char *mensagem_teste);"
+
+[Finaliza_Loop_Principal]
+Class="Function"
+Prototype="void Finaliza_Loop_Principal();"
+
+[DefModel]
+Class="Function"
+Prototype="int DefModel(char *prefixo);"
+
+[MensagensAuto]
+Class="Function"
+Prototype="void MensagensAuto();"
+
+[AtualizaDadosModelo]
+Class="Function"
+Prototype="int AtualizaDadosModelo();"
+
+[ReadIndexFile]
+Class="Function"
+Prototype="int ReadIndexFile();"
+
+[ReadChoicedIndexFile]
+Class="Function"
+Prototype="int ReadChoicedIndexFile();"
+
+[InicializaCIM]
+Class="Function"
+Prototype="int InicializaCIM();"
+
