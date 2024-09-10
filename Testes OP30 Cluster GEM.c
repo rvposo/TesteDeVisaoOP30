@@ -737,6 +737,11 @@ reteste:
 	switch (montagem)
 	{
 		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		/* Case para o Guia de montagem */
+		
+		case GUIA_MONT:
+			strcpy(mens, "Rejeitou a presença do guia de montagem");
+			res = VisionQuantify(/* TO DO: criar variáveis para referenciar coordenadas */);
 		
 		case LOCALIZADOR:
 			strcpy(mens,"Rejeitou localizador");
