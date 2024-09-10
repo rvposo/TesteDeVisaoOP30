@@ -1,4 +1,5 @@
- #define VERSAO						"0.4.4"
+/* GM OP30 Patch 0.4.5 - Detecção do Guia de Montagem */ 
+#define VERSAO						"0.4.5"
 
 #ifndef OFF
 #define OFF	    					0
