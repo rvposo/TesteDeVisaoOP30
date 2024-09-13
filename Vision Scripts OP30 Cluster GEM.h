@@ -176,6 +176,7 @@ enum USAR_LOCATOR
 #define	COORD_ROI_DIFUSOR_STR					"COORD_ROI_DIFUSOR="
 #define	COORD_ROI_DISPLAY_STR					"COORD_ROI_DISPLAY="
 #define	COORD_ROI_SHIELD_STR					"COORD_ROI_SHIELD="
+#define COORD_ROI_GUIA_MONT						"COORD_ROI_GUIA_MONTAGEM="
 //*******************************************************************
 enum REPARAM_ROIS
 {
@@ -252,6 +253,7 @@ COORDENADAS_ROI
 	coord_qtfy_display,
 	coord_qtfy_lcd,
 	coord_qtfy_difusor,
+	coord_qtfy_guia_mont,
 	coord_liner_inf,
 	coord_liner_sup,
 	coord_mask_lightpipe,
