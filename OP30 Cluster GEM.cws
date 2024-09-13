@@ -1,6 +1,7 @@
 [Workspace Header]
-Version = 1501
-Pathname = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/OP30 Cluster GEM.cws"
+Version = 1500
+Pathname Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Pathname Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/OP30 Cluster GEM.cws"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2015"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2015"
@@ -12,11 +13,11 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "OP30 Cluster GEM.prj"
-Drag Bar Left = 260
+Drag Bar Left = 214
 Window Top = 52
-Window Left = 252
-Window Bottom = 661
-Window Right = 1226
+Window Left = 1
+Window Bottom = 757
+Window Right = 684
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -30,14 +31,14 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 11
+Number of Opened Files = 3
 Window Confinement Region Enabled = True
-MainColumnWidth = 243
+MainColumnWidth = 197
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
 [Project Header 0001]
-Version = 1501
+Version = 1500
 Don't Update DistKit = False
 Platform Code = 4
 Build Configuration = "Release"
@@ -46,56 +47,59 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/CIMSockets.fp"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/CIMSockets.fp"
 File Type = "Function Panel"
 Disk Date = 3507125334
 In Projects = "1,"
 
 [File 0002]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Testes OP30 Cluster GEM.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Testes OP30 Cluster GEM.c"
 File Type = "CSource"
-Disk Date = 3735290890
+Disk Date = 3808835201
 In Projects = "1,"
 Window Top = 65
 Window Left = 158
-Window Z-Order = 3
-Source Window State = "1,773,776,773,112,98,112,0,0,150,0,0,0,0,0,44,388,0,408,0,601,1268,1,0,"
+Window Z-Order = 1
+Source Window State = "1,575,575,575,7,17,17,0,3,137,0,0,0,0,0,20,613,0,575,7,601,1268,1,0,"
 Breakpoint 0001 = "378,0,enabled,"
 
 [File 0003]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Visao OP30 Cluster GEM.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Visao OP30 Cluster GEM.c"
 File Type = "CSource"
 Disk Date = 3735291069
 In Projects = "1,"
 Window Top = 152
 Window Left = 74
-Window Z-Order = 5
-Source Window State = "1,1611,1611,1611,4,18,18,0,0,80,0,0,0,0,0,28,2002,0,2016,8,397,715,1,0,"
+Window Z-Order = 3
+Source Window State = "1,1611,1611,1611,4,18,18,0,3,83,0,0,0,0,0,17,1598,0,1611,4,397,715,1,0,"
 Breakpoint 0001 = "2017,0,enabled,"
 
 [File 0004]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Callbacks OP30 GEM.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Callbacks OP30 GEM.c"
 File Type = "CSource"
 Disk Date = 3735230384
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 9
-Source Window State = "1,0,0,0,0,0,0,0,0,64,0,0,0,0,0,14,0,0,0,0,206,587,1,0,"
+Source Window State = "1,0,0,0,0,0,0,0,0,67,0,0,0,0,0,8,0,0,0,0,206,587,1,0,"
 
 [File 0005]
-Path Line0001 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Vision Scripts OP30 Cluster GEM."
-Path Line0002 = "h"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Vision Scripts OP30 Cluster GEM.h"
 File Type = "Include"
 Disk Date = 3735290890
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 8
-Source Window State = "1,177,177,177,8,28,28,1,0,76,0,0,0,0,0,23,158,0,189,27,323,683,1,0,"
+Source Window State = "1,177,177,177,8,28,28,1,0,79,0,0,0,0,0,13,158,0,189,27,323,683,1,0,"
 
 [File 0006]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Manual OP30 GEM.uir"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Manual OP30 GEM.uir"
 File Type = "User Interface Resource"
 Disk Date = 3735230385
 In Projects = "1,"
@@ -103,50 +107,51 @@ Window Top = 32
 Window Left = 10
 Window Height = 427
 Window Width = 705
-Window Z-Order = 11
 
 [File 0007]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auxiliar OP30 GEM.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Auxiliar OP30 GEM.c"
 File Type = "CSource"
 Disk Date = 3651775190
 In Projects = "1,"
 Window Top = 122
 Window Left = 58
-Window Z-Order = 10
-Source Window State = "1,866,866,866,4,16,16,0,0,92,0,0,0,0,0,31,1556,0,1559,36,427,804,1,0,"
+Source Window State = "1,866,866,866,4,16,16,0,0,95,0,0,0,0,0,18,1556,0,1559,36,427,804,1,0,"
 
 [File 0008]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Geral de Inicializacao.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Geral de Inicializacao.c"
 File Type = "CSource"
 Disk Date = 3735294480
 In Projects = "1,"
 Window Top = 267
 Window Left = 218
-Window Z-Order = 6
-Source Window State = "1,198,198,198,4,21,21,0,0,92,0,164,0,0,0,34,181,0,208,31,475,804,1,14,"
+Source Window State = "1,198,198,198,4,21,21,0,0,95,0,164,0,0,0,21,181,0,208,31,475,804,1,14,"
 
 [File 0009]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Main OP30 GEM.c"
 File Type = "CSource"
-Disk Date = 3713019316
+Disk Date = 3808834810
 In Projects = "1,"
 Window Top = 182
 Window Left = 41
-Window Z-Order = 2
-Source Window State = "1,55,55,55,4,17,17,0,0,92,0,0,0,0,0,31,118,0,137,18,427,804,1,0,"
+Source Window State = "1,0,0,0,0,57,57,0,3,95,0,0,0,0,0,18,0,0,0,0,427,804,1,34,"
 
 [File 0010]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.h"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Main OP30 GEM.h"
 File Type = "Include"
-Disk Date = 3735292215
+Disk Date = 3808834792
 In Projects = "1,"
 Window Top = 122
 Window Left = 58
-Window Z-Order = 7
-Source Window State = "1,0,0,0,41,42,42,0,0,80,0,0,0,0,0,28,0,0,0,42,397,715,1,0,"
+Window Z-Order = 2
+Source Window State = "1,0,0,0,41,42,42,0,0,83,0,0,0,0,0,17,0,0,1,42,397,715,1,22,"
 
 [File 0011]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auto OP30 GEM.uir"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Auto OP30 GEM.uir"
 File Type = "User Interface Resource"
 Disk Date = 3735318786
 In Projects = "1,"
@@ -154,26 +159,27 @@ Window Top = 267
 Window Left = 138
 Window Height = 427
 Window Width = 804
-Window Z-Order = 4
 
 [File 0012]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Sistema OP30 Cluster GEM.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Sistema OP30 Cluster GEM.c"
 File Type = "CSource"
-Disk Date = 3652021952
+Disk Date = 3808833591
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 1
-Source Window State = "1,109,109,109,4,22,22,0,0,129,0,0,0,0,0,31,860,0,870,8,284,683,1,0,"
+Source Window State = "1,0,0,0,0,58,58,0,0,79,0,0,0,1,0,12,0,0,0,0,284,683,1,17,"
 
 [File 0013]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Mensagens.uir"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Mensagens.uir"
 File Type = "User Interface Resource"
 Disk Date = 3606201542
 In Projects = "1,"
 
 [File 0014]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/CIMSockets.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/CIMSockets.c"
 File Type = "CSource"
 Disk Date = 3507125334
 In Projects = "1,"
@@ -182,14 +188,16 @@ Window Left = 90
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,306,0,332,0,475,804,0,0,"
 
 [File 0015]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Global Error Tracking.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Global Error Tracking.c"
 File Type = "CSource"
 Disk Date = 3602750540
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0016]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Master_e_Negative_Samples.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Master_e_Negative_Samples.c"
 File Type = "CSource"
 Disk Date = 3614088762
 In Projects = "1,"
@@ -198,14 +206,16 @@ Window Left = 42
 Source Window State = "1,1248,1248,1248,8,16,16,0,0,0,0,0,0,0,0,0,187,1,202,11,427,804,1,0,"
 
 [File 0017]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/NIMachineVision.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/NIMachineVision.c"
 File Type = "CSource"
 Disk Date = 3567650226
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0018]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Visao Imaq.c"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Visao Imaq.c"
 File Type = "CSource"
 Disk Date = 3617108390
 In Projects = "1,"
@@ -214,7 +224,8 @@ Window Left = 154
 Source Window State = "1,1446,1446,1446,4,19,19,0,0,0,0,0,0,0,0,0,971,0,988,4,475,804,0,0,"
 
 [File 0019]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/CIMSockets.h"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/CIMSockets.h"
 File Type = "Include"
 Disk Date = 3507125334
 In Projects = "1,"
@@ -223,32 +234,28 @@ Window Left = 10
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,683,1,0,"
 
 [File 0020]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Global Error Tracking.h"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Global Error Tracking.h"
 File Type = "Include"
 Disk Date = 3602749800
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0021]
-Path = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Master_e_Negative_Samples.h"
+Path Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Path Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Master_e_Negative_Samples.h"
 File Type = "Include"
 Disk Date = 3599038204
 In Projects = "1,"
 Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [Tab Order]
-Tab 0001 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Manual OP30 GEM.uir"
-Tab 0002 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auxiliar OP30 GEM.c"
-Tab 0003 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Callbacks OP30 GEM.c"
-Tab 0004 Line0001 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Vision Scripts OP30 Cluster GEM."
-Tab 0004 Line0002 = "h"
-Tab 0005 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Testes OP30 Cluster GEM.c"
-Tab 0006 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Visao OP30 Cluster GEM.c"
-Tab 0007 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.h"
-Tab 0008 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Main OP30 GEM.c"
-Tab 0009 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Geral de Inicializacao.c"
-Tab 0010 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Auto OP30 GEM.uir"
-Tab 0011 = "/e/SW OP30 - Cluster GM/OP30 Cluster GM - 0.4.4/Sistema OP30 Cluster GEM.c"
+Tab 0001 Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Tab 0001 Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Testes OP30 Cluster GEM.c"
+Tab 0002 Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Tab 0002 Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Main OP30 GEM.h"
+Tab 0003 Line0001 = "/c/Users/cmelo/Desktop/Desenvolvimento/GM/SW OP30 - Cluster GM/OP30 Cluster GM -"
+Tab 0003 Line0002 = " 0.4.5 - Detecção do Guia de Inspeção/Visao OP30 Cluster GEM.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

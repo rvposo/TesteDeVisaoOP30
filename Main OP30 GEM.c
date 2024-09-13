@@ -1,6 +1,5 @@
 /* GM OP30 Patch 0.4.5 - Detecção do Guia de Montagem */  
 
-
 #include "CIMSockets.h"
 #include <formatio.h>
 #include <userint.h>

@@ -1,3 +1,4 @@
+/* GM OP30 Patch 0.4.5 - Detecção do Guia de Montagem */
 
 #include "Windows.h"
 #include <formatio.h>

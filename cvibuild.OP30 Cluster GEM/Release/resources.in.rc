@@ -1,6 +1,6 @@
 #include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
 
-2 ICON "e:\\SW OP30 - Cluster GM\\App icon 48x48.ico"
+2 ICON "c:\\Users\\cmelo\\Desktop\\Desenvolvimento\\GM\\SW OP30 - Cluster GM\\App icon 48x48.ico"
 
 STRINGTABLE DISCARDABLE
 BEGIN
