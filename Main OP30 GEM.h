@@ -146,6 +146,7 @@ typedef enum
 /**** Enumeracao dos tipos de montagem ******/
 typedef enum
 {
+	GUIA_MONT,
 	DIFUSOR,
 	SHIELD,
 	APLIQUE,
