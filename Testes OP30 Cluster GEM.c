@@ -741,7 +741,7 @@ reteste:
 		
 		case GUIA_MONT:
 			strcpy(mens, "Rejeitou a presença do guia de montagem");
-			res = VisionQuantify(/* TO DO: criar variáveis para referenciar coordenadas */);
+			res = VisionQuantify(coord_qtfy_guia_mont, GUIA_MONT, referenciar, dados_cfg_vision.camera_shutter_montagem, dados_cfg_vision.camera_gain_montagem,  );
 		
 		case LOCALIZADOR:
 			strcpy(mens,"Rejeitou localizador");
@@ -784,7 +784,7 @@ reteste:
 			break;
 		case DISPLAY:
 			strcpy(mens,"Rejeitou presença do Display ");
-			res = VisionQuantify(coord_qtfy_display, DISPLAY, referenciar, dados_cfg_vision.camera_shutter_montagem, dados_cfg_vision.camera_gain_montagem, COORD_ROI_DISPLAY_STR);
+			res = VisionQuantify(coord_qtfy_display, DISPLAY, referenciar, dados_cfg_vision.camera_shutter_montagem, dados_cfg_vision.camera_gain_montagem, COORD_ROI_GUIA_MONTAGEM);
 			break;
         case LINER_SUP:
 			strcpy(mens,"Rejeitou liner superior ");
